@@ -17,10 +17,7 @@ docker network disconnect minha-rede meu-container
 	• REMOVE UMA REDE EXISTENTE NO DOCKER
 docker network rm minha-rede
 
-
-
-	• REMOVE TODAS AS REDES DOCKER QUE NÃO ESTÃO ASSOCIADAS 
-	A UM CONTÊINER EM EXECUÇÃO
+	• REMOVE TODAS AS REDES DOCKER QUE NÃO ESTÃO ASSOCIADAS A UM CONTÊINER EM EXECUÇÃO
 docker network prune
 
 	• CRIAR NOVA REDE DOCKER
